@@ -19,7 +19,7 @@
     border-radius: 5px;
     background-color: var(--red); 
 }
-/* .start-button{
+.start-button{
     display: flex;
     justify-content: center;
     background-color: var(--red);
@@ -37,7 +37,7 @@
 .button:hover{
     background-color: var(--purple);
 
-} */
+}
 .hide{
     display: none;
 }
