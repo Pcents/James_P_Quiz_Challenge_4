@@ -1,0 +1,43 @@
+:root{
+    --red: color rgb(227, 99, 64);
+    --blue: color rgba(14, 154, 236, 0.452);
+    --white: color rgba(212, 226, 205, 0.865);
+    --purple:color rgb(219, 54, 228);
+
+}
+*{
+    background-color: bisque;
+}
+.top-container{
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-basis: 50%;
+    border-radius: 5px;
+    background-color: var(--red); 
+}
+/* .start-button{
+    display: flex;
+    justify-content: center;
+    background-color: var(--red);
+}
+.container.answer-buttons{
+    display: grid;
+    grid-template-columns: repeat(2 auto);
+    gap: 5px;
+    margin: 5px;
+}
+.container.container.answer-buttons.button{
+    background-color: var(--blue);
+    color: var(--white);
+}
+.button:hover{
+    background-color: var(--purple);
+
+} */
+.hide{
+    display: none;
+}
